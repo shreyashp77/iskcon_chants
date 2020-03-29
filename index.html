@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale-1.0">
+	<link rel="stylesheet" href="login.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+	<title>Welcome!</title>
+</head>
+
+<body>
+	<div class="container" id="container">
+		<div class="form-container sign-up-container">
+			<form action="signup.php" method="post">
+				<h1>Create Account</h1>
+				<div class="social-container">
+					<!-- <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+					<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+					<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a> -->
+				</div>
+				<!-- <span>or use your email for registration</span> -->
+				<input class="round" type="text" name="user-name" placeholder="Name" />
+				<input class="round" type="email" name="user-email" placeholder="Email" />
+				<input class="round" type="password" name="user-pass" placeholder="Password" />
+				<button name="signup-btn">Sign Up</button>
+			</form>
+		</div>
+		<div class="form-container sign-in-container">
+			<form action="login.php" method="post">
+				<h1>Sign in</h1>
+				<div class="social-container">
+					<!-- <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+					<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+					<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a> -->
+				</div>
+				<!-- <span>or use your account</span> -->
+				<input class="round" type="text" name="user-name" placeholder="Username" />
+				<input class="round" type="password" name="user-pass" placeholder="Password" />
+				<!-- <a href="#">Forgot your password?</a> -->
+				<button name="login-btn">Sign In</button>
+			</form>
+		</div>
+		<div class="overlay-container">
+			<div class="overlay">
+				<div class="overlay-panel overlay-left">
+					<h1>Welcome Back!</h1>
+					<p>Already a member?<br>What are you waiting for?<br>Click the button below to log in now!</p>
+					<button class="ghost" id="signIn">Sign In</button>
+				</div>
+				<div class="overlay-panel overlay-right">
+					<h1>Hello, Friend!</h1>
+					<p>New User?<br>Don't worry, we've got you covered!<br>Just click the button below to join
+						now! </p>
+					<button class="ghost" id="signUp">Sign Up</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		<p>
+			Created with <i class="fa fa-heart"></i> by Shreyash Pardikar.
+		</p>
+	</footer>
+	<script type="text/javascript" src="main.js">
+
+	</script>
+</body>
+
+</html>

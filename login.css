@@ -50,6 +50,7 @@ a {
 
 button {
 	border-radius: 20px;
+	width: 200px;
 	border: 1px solid #FF4B2B;
 	background-color: #FF4B2B;
 	color: #FFFFFF;
@@ -63,15 +64,18 @@ button {
 
 button:active {
 	transform: scale(0.95);
+	width: 200px;
 }
 
 button:focus {
 	outline: none;
+	width: 200px;
 }
 
 button.ghost {
 	background-color: transparent;
 	border-color: #FFFFFF;
+	width: 200px;
 }
 
 form {
